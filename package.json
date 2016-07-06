@@ -31,11 +31,11 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-casper": "~0.4.0",
-    "grunt-contrib-jshint": "~0.10",
+    "grunt-casper": ">0.4.0",
+    "grunt-contrib-jshint": ">=0.10",
     "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-watch": "~0.6.1"
+    "grunt-contrib-uglify": ">=1.0.1",
+    "grunt-contrib-watch": ">=1.0.0"
   },
   "keywords": [
     "halstead",
@@ -47,13 +47,14 @@
     "analyze"
   ],
   "dependencies": {
-    "escomplex-js": "~1.2.0",
-    "fs-extra": "^0.3.2",
-    "glob": "~4.4.1",
-    "jshint": "^2.9.0",
-    "lodash": "^3.3.1",
-    "posix-getopt": "~1.1.0",
-    "complexity-report": "~0.10.3",
-    "eslint": "^1.5.1"
+    "escomplex-js": "jared-stilwell/escomplex-js",
+    "esprima":">=2.7.2",
+    "fs-extra": ">=0.3.2",
+    "glob": ">=4.4.1",
+    "jshint": ">=2.9.0",
+    "lodash": ">=3.3.1",
+    "posix-getopt": ">=1.1.0",
+    "complexity-report": ">=0.10.3",
+    "eslint": ">=1.5.1"
   }
 }

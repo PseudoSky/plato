@@ -47,6 +47,7 @@ exports['plato'] = {
     var files = './test/fixtures/*.js';
 
     plato.inspect(files, null, {}, function(reports) {
+      console.log('REP',files,reports);
       test.equal(reports.length, 5, 'Should properly test against the array produced by the glob');
       test.done();
     });

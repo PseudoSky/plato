@@ -1,15 +1,23 @@
 
 {
+  "boss": true,
+  "asi": true,
+  "bitwise": true,
   "curly": false,
+  "debug": true,
   "eqeqeq": true,
+  "eqnull": true,
+  "esversion": 6,
+  "expr": true,
   "immed": true,
+  "latedef": "nofunc",
   "latedef": false,
   "newcap": true,
   "noarg": true,
+  "node": true,
+  "smarttabs": true,
+  "esversion": 6,
   "sub": true,
   "undef": true,
-  "unused": true,
-  "boss": true,
-  "eqnull": true,
-  "node": true
+  "unused": true
 }

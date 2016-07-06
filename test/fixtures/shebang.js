@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+var _ = require('lodash');
 var a = 1;
 
 function fnA(arg) {
