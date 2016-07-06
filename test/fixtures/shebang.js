@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-var _ = require('lodash');
+// var _ = require('lodash');
+import _ from 'lodash';
 var a = 1;
 
 function fnA(arg) {

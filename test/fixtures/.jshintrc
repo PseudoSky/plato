@@ -12,6 +12,7 @@
   "sub": true,
   "undef": true,
   "unused": true,
+  "ignoreErrors":true,
   "boss": true,
   "eqnull": true,
   "node": true,
